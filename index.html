@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Fasthand&family=Roboto&family=Roboto+Mono:wght@300&family=Young+Serif&display=swap" rel="stylesheet">
+  </head> 
+
+  <body>
+    <nav class="main-menu">
+      <ul>
+        <li>
+          <a href="#home">
+            <i class="fa fa-home nav-icon"></i>
+            <span class="nav-text">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#gallery">
+            <i class="fa fa-image nav-icon"></i>
+            <span class="nav-text">Gallery</span>
+          </a>
+        </li>
+        <li>
+          <a href="#menu">
+            <i class="fa fa-bars nav-icon"></i>
+            <span class="nav-text">Menu</span>
+          </a>
+        </li>
+        <li>
+          <a href="#aboutus">
+            <i class="fa fa-user-circle nav-icon"></i>
+            <span class="nav-text">About Us</span>
+          </a>
+        </li>
+        <li>
+          <a href="#category">
+            <i class="fa fa-list-alt nav-icon"></i>
+            <span class="nav-text">Categories</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="logout">
+        <li>
+          <a href="#contct">
+            <i class="fa fa-address-book nav-icon"></i>
+            <span class="nav-text">Contact US</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- HOME SECTION -->
+
+    <section id="home">
+      <div class="heading">
+        <h2>Fast Food Recipes</h2>
+      </div>
+      <div class="home">
+        <div class="search-box">
+          <input type="text" id="searchBar" placeholder=" Search Recipe...." />
+          <button type="reset"><i class="fa fa-magnifying-glass"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <p>Swipe the slider to explore the ingredients of other dishes</p>
+        <!-- Swiper -->
+      <div class="main-swiper">
+              <!-- first swiper -->
+        <div class="swiper mySwiper swiper-cube swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress">
+          <div class="swiper-wrapper" id="swiper-wrapper-afc7c2bc68d7ed3d" aria-live="polite" style="cursor: grab; transform-origin: 50% 50% -150px; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(-270deg); --swiper-cube-translate-z: 0px; transition-duration: 0ms; transition-delay: 0ms;">
+            <div id="biryaniDiv"  class="swiper-slide" role="group" aria-label="1 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+              <h1>Biryani</h1>
+              <img src="biryani.jpg">
+              
+              <div class="bir"><h3>1 cup boiled basmati rice</h3>
+                <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+                <h3>1 cup hung curd,   water as required</h3>
+                <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+                <h3>4 green chillies ,  2 tbsp Ghee</h3>
+                <h3>1 teaspoon red chilli powder</h3>
+                <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+                <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+                <h3>3 Cloves ,  2 Cardamom</h3>
+                <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+              </div>
+
+              <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+              </div>
+              <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 1; transition-duration: 0ms;">
+              </div>
+            </div>
+            <div class="swiper-slide" role="group" aria-label="2 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+              <h1>Vegetable Curry</h1>
+              <img src="curry.jpg">
+              <div class="bir"><h3>1 cup boiled basmati rice</h3>
+                <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+                <h3>1 cup hung curd,   water as required</h3>
+                <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+                <h3>4 green chillies ,  2 tbsp Ghee</h3>
+                <h3>1 teaspoon red chilli powder</h3>
+                <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+                <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+                <h3>3 Cloves ,  2 Cardamom</h3>
+                <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+              </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+            </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 1; transition-duration: 0ms;">
+            </div>
+            </div>
+            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(180deg) translate3d(300px, 0px, 300px); transition-duration: 0ms;">
+              <h1>Spaghetti</h1>
+              <img src="spaghetti.jpg">
+              <div class="bir"><h3>1 cup boiled basmati rice</h3>
+                <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+                <h3>1 cup hung curd,   water as required</h3>
+                <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+                <h3>4 green chillies ,  2 tbsp Ghee</h3>
+                <h3>1 teaspoon red chilli powder</h3>
+                <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+                <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+                <h3>3 Cloves ,  2 Cardamom</h3>
+                <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+              </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+            </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 1; transition-duration: 0ms;">
+            </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active swiper-slide-visible" role="group" aria-label="4 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(270deg) translate3d(-300px, 0px, 900px); transition-duration: 0ms;">
+              <h1>Pizza</h1>
+              <img src="pizza.jpg">
+              <div class="bir"><h3>1 cup boiled basmati rice</h3>
+                <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+                <h3>1 cup hung curd,   water as required</h3>
+                <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+                <h3>4 green chillies ,  2 tbsp Ghee</h3>
+                <h3>1 teaspoon red chilli powder</h3>
+                <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+                <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+                <h3>3 Cloves ,  2 Cardamom</h3>
+                <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+              </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+            </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+            </div>
+            </div>
+            <div id="burgerdiv" class="swiper-slide swiper-slide-active swiper-slide-visible" role="group" aria-label="4 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(270deg) translate3d(-300px, 0px, 900px); transition-duration: 0ms;">
+            <h1>Burger</h1>
+            <img src="burger.jpg">
+            <div class="bir"><h3>1 cup boiled basmati rice</h3>
+              <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+              <h3>1 cup hung curd,   water as required</h3>
+              <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+              <h3>4 green chillies ,  2 tbsp Ghee</h3>
+              <h3>1 teaspoon red chilli powder</h3>
+              <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+              <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+              <h3>3 Cloves ,  2 Cardamom</h3>
+              <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+            </div>
+          <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+          </div>
+          <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+          </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active swiper-slide-visible" role="group" aria-label="4 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(270deg) translate3d(-300px, 0px, 900px); transition-duration: 0ms;">
+          <h1>Meat Balls</h1>
+          <img src="meat balls.jpg">
+          <div class="bir"><h3>1 cup boiled basmati rice</h3>
+            <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+            <h3>1 cup hung curd,   water as required</h3>
+            <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+            <h3>4 green chillies ,  2 tbsp Ghee</h3>
+            <h3>1 teaspoon red chilli powder</h3>
+            <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+            <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+            <h3>3 Cloves ,  2 Cardamom</h3>
+            <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+          </div>
+        <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+        </div>
+        <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+        </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active swiper-slide-visible" role="group" aria-label="4 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(270deg) translate3d(-300px, 0px, 900px); transition-duration: 0ms;">
+        <h1>Fish Fried</h1>
+        <img src="fish.jpg">
+        <div class="bir"><h3>1 cup boiled basmati rice</h3>
+          <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+          <h3>1 cup hung curd,   water as required</h3>
+          <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+          <h3>4 green chillies ,  2 tbsp Ghee</h3>
+          <h3>1 teaspoon red chilli powder</h3>
+          <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+          <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+          <h3>3 Cloves ,  2 Cardamom</h3>
+          <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+        </div>
+      <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+      </div>
+      <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+      </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active swiper-slide-visible" role="group" aria-label="4 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(270deg) translate3d(-300px, 0px, 900px); transition-duration: 0ms;">
+      <h1>Karahi</h1>
+      <img src="karahi.jpg">
+      <div class="bir"><h3>1 cup boiled basmati rice</h3>
+        <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+        <h3>1 cup hung curd,   water as required</h3>
+        <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+        <h3>4 green chillies ,  2 tbsp Ghee</h3>
+        <h3>1 teaspoon red chilli powder</h3>
+        <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+        <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+        <h3>3 Cloves ,  2 Cardamom</h3>
+        <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+      </div>
+    <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+    </div>
+    <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+    </div>
+            </div>
+            <div class="swiper-cube-shadow" style="height: 300px; transform: translate3d(0px, 170px, -150px) rotateX(90deg) rotateZ(0deg) scale(0.94);">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span>
+          </div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+        </div>
+
+                  <!-- 2nd swiper -->
+        <div  class="swiper mySwiper swiper-cube swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress">
+          <div class="swiper-wrapper" id="swiper-wrapper-afc7c2bc68d7ed3d" aria-live="polite" style="cursor: grab; transform-origin: 50% 50% -150px; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(-270deg); --swiper-cube-translate-z: 0px; transition-duration: 0ms; transition-delay: 0ms;">
+            <div class="swiper-slide " id="biryaniDiv" role="group" aria-label="1 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+              <h1>Biryani</h1>
+              <img src="biryani.jpg">
+              <div class="bir"><h3>1 cup boiled basmati rice</h3>
+                <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+                <h3>1 cup hung curd,   water as required</h3>
+                <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+                <h3>4 green chillies ,  2 tbsp Ghee</h3>
+                <h3>1 teaspoon red chilli powder</h3>
+                <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+                <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+                <h3>3 Cloves ,  2 Cardamom</h3>
+                <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+              </div>
+
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+            </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 1; transition-duration: 0ms;">
+            </div>
+            </div>
+            <div class="swiper-slide" id="curryDiv" role="group" aria-label="2 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+              <h1>Vegetable Curry</h1>
+              <img src="curry.jpg">
+              <div class="bir"><h3>1 cup boiled basmati rice</h3>
+                <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+                <h3>1 cup hung curd,   water as required</h3>
+                <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+                <h3>4 green chillies ,  2 tbsp Ghee</h3>
+                <h3>1 teaspoon red chilli powder</h3>
+                <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+                <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+                <h3>3 Cloves ,  2 Cardamom</h3>
+                <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+              </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+            </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 1; transition-duration: 0ms;">
+            </div>
+            </div>
+            <div class="swiper-slide swiper-slide-prev" id="spaghettiDiv="group" aria-label="3 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(180deg) translate3d(300px, 0px, 300px); transition-duration: 0ms;">
+              <h1>Spaghetti</h1>
+              <img src="spaghetti.jpg">
+              <div class="bir"><h3>1 cup boiled basmati rice</h3>
+                <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+                <h3>1 cup hung curd,   water as required</h3>
+                <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+                <h3>4 green chillies ,  2 tbsp Ghee</h3>
+                <h3>1 teaspoon red chilli powder</h3>
+                <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+                <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+                <h3>3 Cloves ,  2 Cardamom</h3>
+                <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+              </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+            </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 1; transition-duration: 0ms;">
+            </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active swiper-slide-visible" role="group" aria-label="4 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(270deg) translate3d(-300px, 0px, 900px); transition-duration: 0ms;">
+              <h1>Pizza</h1>
+              <img src="pizza.jpg">
+              <div class="bir"><h3>1 cup boiled basmati rice</h3>
+                <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+                <h3>1 cup hung curd,   water as required</h3>
+                <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+                <h3>4 green chillies ,  2 tbsp Ghee</h3>
+                <h3>1 teaspoon red chilli powder</h3>
+                <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+                <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+                <h3>3 Cloves ,  2 Cardamom</h3>
+                <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+              </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+            </div>
+            <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+            </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active swiper-slide-visible" role="group" aria-label="4 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(270deg) translate3d(-300px, 0px, 900px); transition-duration: 0ms;">
+            <h1>Burger</h1>
+            <img src="burger.jpg">
+            <div class="bir"><h3>1 cup boiled basmati rice</h3>
+              <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+              <h3>1 cup hung curd,   water as required</h3>
+              <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+              <h3>4 green chillies ,  2 tbsp Ghee</h3>
+              <h3>1 teaspoon red chilli powder</h3>
+              <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+              <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+              <h3>3 Cloves ,  2 Cardamom</h3>
+              <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+            </div>
+          <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+          </div>
+          <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+          </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active swiper-slide-visible" role="group" aria-label="4 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(270deg) translate3d(-300px, 0px, 900px); transition-duration: 0ms;">
+          <h1>Meat Balls</h1>
+          <img src="meat balls.jpg">
+          <div class="bir"><h3>1 cup boiled basmati rice</h3>
+            <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+            <h3>1 cup hung curd,   water as required</h3>
+            <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+            <h3>4 green chillies ,  2 tbsp Ghee</h3>
+            <h3>1 teaspoon red chilli powder</h3>
+            <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+            <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+            <h3>3 Cloves ,  2 Cardamom</h3>
+            <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+          </div>
+        <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+        </div>
+        <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+        </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active swiper-slide-visible" role="group" aria-label="4 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(270deg) translate3d(-300px, 0px, 900px); transition-duration: 0ms;">
+        <h1>Fish Fried</h1>
+        <img src="fish.jpg">
+        <div class="bir"><h3>1 cup boiled basmati rice</h3>
+          <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+          <h3>1 cup hung curd,   water as required</h3>
+          <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+          <h3>4 green chillies ,  2 tbsp Ghee</h3>
+          <h3>1 teaspoon red chilli powder</h3>
+          <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+          <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+          <h3>3 Cloves ,  2 Cardamom</h3>
+          <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+        </div>
+      <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+      </div>
+      <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+      </div>
+            </div>
+            <div class="swiper-slide swiper-slide-active swiper-slide-visible" role="group" aria-label="4 / 4" style="width: 300px; transform: rotateX(0deg) rotateY(270deg) translate3d(-300px, 0px, 900px); transition-duration: 0ms;">
+      <h1>Karahi</h1>
+      <img src="karahi.jpg">
+      <div class="bir"><h3>1 cup boiled basmati rice</h3>
+        <h3>2 onion , 1 tablespoon ginger garlic paste</h3>
+        <h3>1 cup hung curd,   water as required</h3>
+        <h3>Leaves Mint , 1 tablespoon garam masala powder</h3>
+        <h3>4 green chillies ,  2 tbsp Ghee</h3>
+        <h3>1 teaspoon red chilli powder</h3>
+        <h3>600 gm chicken , 1 tbsp Cumin Seeds</h3>
+        <h3>½ Bay leaf  , 1 thin piece Cinnamon</h3>
+        <h3>3 Cloves ,  2 Cardamom</h3>
+        <h3>1 tsp Red Chilli powder , 1 tbsp Biryani masala</h3>
+      </div>
+    <div class="swiper-slide-shadow-cube swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+    </div>
+    <div class="swiper-slide-shadow-cube swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+    </div>
+            </div>
+            <div class="swiper-cube-shadow" style="height: 300px; transform: translate3d(0px, 170px, -150px) rotateX(90deg) rotateZ(0deg) scale(0.94);">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span>
+          </div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+        </div>
+
+      </div>
+        <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="menu">
+      <h2>MENU</h2>
+      <div class="parent">
+        
+        <button onclick="scrollToSection('gallery')">Pizza</button>
+        <button id="Burger" >Burger</button>
+        <button id="Fish">Fish</button>
+        <button id="Spaghetti">Spaghetti </button>
+        <button id="Alfredo">Chicken Alfredo</button>
+        <button id="curryButton">Vegetable Curry</button>
+        <button id="biryaniButton">biryani</button>
+        <button id="Karahi">Chicken Karahi</button>
+        <button id="Pasta">pasta</button>
+        <button id="Chicken">chicken</button>
+        <button id="Bresd">Brown Bread</button>
+        <button id="Balls">Meat Balls</button>
+        <button id="Mutton">Mutton Curry</butto>
+        <button id="Barbecue">Barbecue</button>
+        <button id="Fried">Fried Chicken</button>
+
+      </div>
+  
+      
+    </section>
+
+    <!-- ABOUT US  SECTION -->
+    <section id="aboutus">
+      <div class="about">
+        <h2>About Us</h2>
+          <div class="main2">
+            <img src="20 Indian Thali Ideas.jfif" alt="">
+            <div class="about-text">
+                <p>Welcome to our recipe website, where culinary inspiration meets delicious creations! Whether you're a
+                    seasoned chef or a passionate home cook, we are here to ignite your taste buds and guide you on a
+                    delightful culinary journey. Our extensive collection of recipes covers a wide range of cuisines,
+                    from comforting classics to innovative fusion dishes. Each recipe is thoughtfully crafted, tested,
+                    and presented with step-by-step instructions, ensuring that even the novice cook can create
+                    extraordinary meals. We believe that cooking is an art form that brings people together, and our
+                    goal is to empower you to explore your culinary creativity and make every meal a masterpiece. So
+                    come on in, explore our diverse recipe collection, and let's embark on a delightful gastronomic
+                    adventure together!</p>
+
+            </div>
+          </div>
+      </div> 
+    </section>
+
+    <!-- CATEGORY SECTION -->
+    <section id="category">
+      <div class="categories">
+        <h2>categories</h2>
+        <div class="box">
+            <div class="ca-card">
+                <img src="maincourse.jfif" alt="">
+                <div class="content">
+                    <h3>Fast Food</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                    <button>Explore</button>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="desserts.jfif" alt="">
+                <div class="content">
+                    <h3>Desserts</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                    <button>Explore</button>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="healthyeats.jfif" alt="">
+                <div class="content">
+                    <h3>Healthy Eats</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                    <button>Explore</button>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="baking.jfif" alt="">
+                <div class="content">
+                    <h3>Baking</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                    <button>Explore</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+<section id="contact">
+
+  <div class="cnt_background">
+  <div class="container">
+    <div class="screen">
+      <div class="screen-header">
+        <div class="screen-header-left">
+          <div class="screen-header-button close"></div>
+          <div class="screen-header-button maximize"></div>
+          <div class="screen-header-button minimize"></div>
+        </div>
+        <div class="screen-header-right">
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+        </div>
+      </div>
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <span>CONTACT</span>
+            <span>US</span>
+          </div>
+          <div class="app-contact">CONTACT INFO : +92 000 000 000</div>
+        </div>
+        <div class="screen-body-item">
+          <div class="app-form">
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="NAME" >
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="EMAIL">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="CONTACT NO">
+            </div>
+            <div class="app-form-group message">
+              <input class="app-form-control" placeholder="MESSAGE">
+            </div>
+            <div class="app-form-group buttons">
+              <button class="app-form-button">CANCEL</button>
+              <button class="app-form-button">SEND</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+    <!-- script -->
+<script src="cc.js"></script>
+
+
+
+  </body>
+</html>
